@@ -1,0 +1,6 @@
+Keywords>Documents
+The World War 2>['doc1.html', 'doc2.html', 'doc3.html']
+World War II>['doc1.html', 'doc2.html', 'doc3.html']
+WWII>['doc1.html', 'doc2.html', 'doc3.html']
+WW2>['doc1.html', 'doc2.html', 'doc3.html']
+Second World War>['doc1.html', 'doc2.html', 'doc3.html']

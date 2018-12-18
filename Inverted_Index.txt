@@ -1,0 +1,4 @@
+Document Name	Keywords
+doc1.html	['The World War 2', 'World War\xa0II', 'WWII', 'WW2', 'Second World War']
+doc2.html	['The World War 2', 'World War\xa0II', 'WWII', 'WW2', 'Second World War']
+doc3.html	['The World War 2', 'World War\xa0II', 'WWII', 'WW2', 'Second World War']

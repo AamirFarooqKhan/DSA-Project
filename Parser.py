@@ -1,4 +1,6 @@
 from bs4 import BeautifulSoup
+import re
+
 class Parser:
     """This class is implementation of indexer
         ,it takes file names as arguments and parse those
@@ -21,6 +23,33 @@ class Parser:
         keywords_list.extend(self.soup.find_all('h2'))
         keywords_list.extend(self.soup.find_all('h3'))
         return keywords_list
+
+
+    def get_links(self):
+
+        links = []
+
+        for link in self.soup.findAll('a', attrs={'href': re.compile("^doc")}):
+            links.append(link.get('href'))
+
+
+
+        return links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
